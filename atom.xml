@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zhizzzzzz.github.io</id>
+    <id>https://kpxfly.gitee.io</id>
     <title>Crystal</title>
-    <updated>2020-12-29T14:46:43.572Z</updated>
+    <updated>2020-12-29T14:58:47.333Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://zhizzzzzz.github.io"/>
-    <link rel="self" href="https://zhizzzzzz.github.io/atom.xml"/>
+    <link rel="alternate" href="https://kpxfly.gitee.io"/>
+    <link rel="self" href="https://kpxfly.gitee.io/atom.xml"/>
     <subtitle>醉后不知天在水，满船清梦压星河</subtitle>
-    <logo>https://zhizzzzzz.github.io/images/avatar.png</logo>
-    <icon>https://zhizzzzzz.github.io/favicon.ico</icon>
+    <logo>https://kpxfly.gitee.io/images/avatar.png</logo>
+    <icon>https://kpxfly.gitee.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Crystal</rights>
     <entry>
         <title type="html"><![CDATA[k8s系列-简介]]></title>
-        <id>https://zhizzzzzz.github.io/post/k8s-info/</id>
-        <link href="https://zhizzzzzz.github.io/post/k8s-info/">
+        <id>https://kpxfly.gitee.io/post/k8s-info/</id>
+        <link href="https://kpxfly.gitee.io/post/k8s-info/">
         </link>
         <updated>2020-12-29T09:43:15.000Z</updated>
         <content type="html"><![CDATA[<p>转载自: <a href="https://www.jianshu.com/p/502544957c88">k8s简介</a></p>
@@ -62,8 +62,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://zhizzzzzz.github.io/post/hello-gridea/</id>
-        <link href="https://zhizzzzzz.github.io/post/hello-gridea/">
+        <id>https://kpxfly.gitee.io/post/hello-gridea/</id>
+        <link href="https://kpxfly.gitee.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
