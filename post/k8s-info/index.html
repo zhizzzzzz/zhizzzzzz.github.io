@@ -6,7 +6,7 @@
 
 <title>k8s系列-简介 | Crystal</title>
 
-<link rel="shortcut icon" href="https://zhizzzzzz.github.io/favicon.ico?v=1609250987617">
+<link rel="shortcut icon" href="https://zhizzzzzz.github.io/favicon.ico?v=1609251644866">
 
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://zhizzzzzz.github.io/styles/main.css">
@@ -179,7 +179,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1609250987617"
+            <form id="gridea-search-form" style="position: relative" data-update="1609251644866"
                 action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -215,11 +215,48 @@
                     
                 </div>
                 <div class="post-content">
-                    <p>一、为什么需要 k8s？</p>
-<ol>
-<li>应用部署模式的演进<br>
-123</li>
-</ol>
+                    <h2 id="一-为什么需要-k8s">一、为什么需要 k8s？</h2>
+<h5 id="1-应用部署模式的演进">1. 应用部署模式的演进</h5>
+<figure data-type="image" tabindex="1"><img src="https://upload-images.jianshu.io/upload_images/6534887-f73947baaea7ccc7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/441/format/webp" alt="" loading="lazy"></figure>
+<p>​																						虚拟化模式</p>
+<figure data-type="image" tabindex="2"><img src="https://upload-images.jianshu.io/upload_images/6534887-53a8d68d6e0f3af0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/441/format/webp" alt="" loading="lazy"></figure>
+<p>​																						容器化模式</p>
+<p>相比虚拟机和容器</p>
+<ul>
+<li>容器更加轻量级，启动更快（秒级）</li>
+<li>容器可移植性更好</li>
+</ul>
+<h5 id="2-管理大量的容器带来了新的挑战">2. 管理大量的容器带来了新的挑战</h5>
+<p>容器编排调度引擎 —— k8s 的好处</p>
+<ul>
+<li>简化应用部署</li>
+<li>提高硬件资源利用率</li>
+<li>健康检查和自修复</li>
+<li>自动扩容缩容</li>
+<li>服务发现和负载均衡</li>
+</ul>
+<h2 id="二-k8s-的集群架构">二、k8s 的集群架构</h2>
+<ul>
+<li>
+<p>主节点，承载 k8s 的控制和管理整个集群系统的控制面板</p>
+</li>
+<li>
+<p>工作节点，运行用户实际的应用</p>
+<p>​</p>
+<figure data-type="image" tabindex="3"><img src="https://upload-images.jianshu.io/upload_images/6534887-ad58ca339c403a4b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/701/format/webp" alt="" loading="lazy"></figure>
+<p>k8s 集群组件</p>
+</li>
+</ul>
+<h2 id="三-pod-k8s-调度的最小单元">三、pod —— k8s 调度的最小单元</h2>
+<h5 id="1-一个-pod-包含一组容器一个-pod-不会跨越多个工作节点">1. 一个 pod 包含一组容器，一个 pod 不会跨越多个工作节点</h5>
+<figure data-type="image" tabindex="4"><img src="https://upload-images.jianshu.io/upload_images/6534887-ea180ac7944c2baa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/501/format/webp" alt="" loading="lazy"></figure>
+<p>pod 不会跨越工作节点</p>
+<h5 id="2-了解-pod">2. 了解 pod</h5>
+<ul>
+<li>pod 相当与逻辑主机，每个 pod 都有自己的 IP 地址</li>
+<li>pod 内的容器共享相同的 IP 和端口空间</li>
+<li>默认情况下，每个容器的文件系统与其他容器完全隔离</li>
+</ul>
 
                 </div>
             </article>
