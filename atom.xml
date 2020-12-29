@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhizzzzzz.github.io</id>
     <title>Crystal</title>
-    <updated>2020-12-29T14:39:46.146Z</updated>
+    <updated>2020-12-29T14:46:17.689Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhizzzzzz.github.io"/>
     <link rel="self" href="https://zhizzzzzz.github.io/atom.xml"/>
@@ -20,10 +20,10 @@
 <h2 id="一-为什么需要-k8s">一、为什么需要 k8s？</h2>
 <h5 id="1-应用部署模式的演进">1. 应用部署模式的演进</h5>
 <figure data-type="image" tabindex="1"><img src="https://images.weserv.nl/?url=https://upload-images.jianshu.io/upload_images/6534887-f73947baaea7ccc7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/441/format/webp" alt="" loading="lazy"></figure>
-<p>​																						虚拟化模式</p>
+<center>虚拟化模式</center>
 <figure data-type="image" tabindex="2"><img src="https://images.weserv.nl/?url=https://upload-images.jianshu.io/upload_images/6534887-53a8d68d6e0f3af0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/441/format/webp" alt="" loading="lazy"></figure>
-<p>​																						容器化模式</p>
-<p>相比虚拟机和容器</p>
+<center>容器化模式</center>
+<p><strong>相比虚拟机和容器</strong></p>
 <ul>
 <li>容器更加轻量级，启动更快（秒级）</li>
 <li>容器可移植性更好</li>
@@ -44,15 +44,14 @@
 </li>
 <li>
 <p>工作节点，运行用户实际的应用</p>
-<p>​</p>
 <figure data-type="image" tabindex="3"><img src="https://images.weserv.nl/?url=https://upload-images.jianshu.io/upload_images/6534887-ad58ca339c403a4b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/701/format/webp" alt="" loading="lazy"></figure>
-<p>k8s 集群组件</p>
 </li>
 </ul>
+<center> k8s 集群组件</center>
 <h2 id="三-pod-k8s-调度的最小单元">三、pod —— k8s 调度的最小单元</h2>
 <h5 id="1-一个-pod-包含一组容器一个-pod-不会跨越多个工作节点">1. 一个 pod 包含一组容器，一个 pod 不会跨越多个工作节点</h5>
 <figure data-type="image" tabindex="4"><img src="https://images.weserv.nl/?url=https://upload-images.jianshu.io/upload_images/6534887-ea180ac7944c2baa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/501/format/webp" alt="" loading="lazy"></figure>
-<p>pod 不会跨越工作节点</p>
+<center> pod 不会跨越工作节点</center>
 <h5 id="2-了解-pod">2. 了解 pod</h5>
 <ul>
 <li>pod 相当与逻辑主机，每个 pod 都有自己的 IP 地址</li>
